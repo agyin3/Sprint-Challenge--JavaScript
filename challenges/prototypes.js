@@ -46,7 +46,9 @@
 // });
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
+// console.log(`**Cuboid volume**`)
 // console.log(cuboid.volume()); // 100
+// console.log(`**Cuboid surface area**`)
 // console.log(cuboid.surfaceArea()); // 130
 
 

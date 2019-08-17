@@ -31,8 +31,11 @@ function greeting(first, last) {
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
+console.log(`**Add**`);
 consume(2,2,add); // 4
+console.log(`**Multiply**`)
 consume(10,16,multiply); // 160
+console.log(`**Greet**`)
 consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
@@ -42,7 +45,7 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explanation: Functions will always be able to access variables that one level or higher from their scope 
 
-
+console.log(`**Closures Example**`)
 const external = "I'm outside the function";
 
 function myFunction() {
